@@ -10,9 +10,39 @@
       href="assets/images/favicon.ico"
       type="image/x-icon"
     />
+    <script
+      src="https://kit.fontawesome.com/0a079e4901.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <img src="assets/images/popeyes-logo.svg" />
-    <h1>Y'all ready for this?</h1>
+    <header>
+      <nav id="left-nav">
+        <ul>
+          <li><a id="nav-menu" href="#">Menu</a></li>
+          <li><a href="#">Restaurants</a></li>
+          <li><a href="#">Offers</a></li>
+          <li>
+            <a href="#">More <i class="fas fa-caret-down"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <img id="header-logo" src="assets/images/popeyes-logo.svg" />
+      <div id="right-buttons">
+        <button id="sign-up" class="header-button">Sign-Up</button>
+        <button id="shopping-cart" class="header-button">
+          <i class="fas fa-shopping-bag"></i> 0
+        </button>
+      </div>
+    </header>
+    <div id="select-rest">
+      <div>For item availability</div>
+      <div><a href="#">Select Restaurant</a></div>
+    </div>
+
+    <div id="static-menu">
+      <h1>Y'all ready for this?</h1>
+      <div></div>
+    </div>
   </body>
 </html>

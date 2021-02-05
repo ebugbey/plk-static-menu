@@ -10,4 +10,78 @@
 body {
   font-family: chicken_sans_bold;
   text-align: center;
+  color: #000000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  background-color: white;
+  border-bottom: 2px solid #f5f1ef;
+  padding: 0 3rem;
+}
+
+#left-nav {
+  width: 30rem;
+  align-items: center;
+}
+
+#left-nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+#left-nav ul a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#nav-menu {
+  color: #f78224 !important;
+}
+
+#header-logo {
+  height: 35%;
+}
+
+#right-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header-button {
+  height: 1.6rem;
+  width: 6rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-family: "chicken_sans_bold";
+  border-style: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#select-rest {
+  display: flex;
+  padding: 0 3rem;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.9rem;
+  height: 1.6rem;
+  background-color: white;
+  border-bottom: 2px solid #f5f1ef;
+}
+
+h1 {
+  background-color: #f78224;
+  color: white;
+  font-size: 4rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
 }
